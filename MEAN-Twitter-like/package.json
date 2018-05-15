@@ -1,0 +1,35 @@
+{
+  "name": "mean-twitter_rush",
+  "version": "1.0.0",
+  "description": "MEAN Twitter-like App Rush",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "cd client && ng build --prod --env=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "Angular",
+    "2",
+    "Application"
+  ],
+  "author": "Yon LOUIS",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "@angular/cli": "^1.7.4",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16",
+    "jsonwebtoken": "^7.4.1"
+  }
+}
